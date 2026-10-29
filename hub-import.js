@@ -17,6 +17,7 @@
 //   jobs.json          adds new named side jobs, drops jobs the hub has disabled.
 //   printing.json      follows the grenade renames.
 //   localization.json  names for new materials.
+//   forgePerks/Recipes/Settings  forge perks (new ones, materials, ranges), ingot recipes, settings.
 //   items.json         rebuilt from all of the above, including the "uses" index.
 // missions.json and attachments.json are only compared, never written.
 
@@ -286,6 +287,69 @@ for (const [table, questItem] of [["Materials_DT", false], ["QuestItems_DT", tru
     }
 }
 
+// ------------------------------------------------------------------ forge
+// Optional: exports made before the forge tables were added to the snippet lack them.
+let forgePerks = read("forgePerks.json");
+let forgeRecipes = read("forgeRecipes.json");
+let forgeSettings = read("forgeSettings.json");
+const FORGE_TABLES = ["RolledPerks_DT", "AlienForgeIngotsRecipes_DT", "AlienForgeSettings_DT"];
+if (FORGE_TABLES.every((t) => Array.isArray(DT[t]))) {
+    const s = DT.AlienForgeSettings_DT[0];
+    const rarityMap = (m) => Object.fromEntries(Object.entries(m || {}).map(([k, v]) => [strip(k), v]));
+    const settings = {
+        catalystAmount: s.m_requiredAmountCatalyst,
+        maxInputItems: s.m_maxAmountOfInputItems,
+        rarityAmount: rarityMap(s.m_raritiesToAmountMap),
+        timer_Default: s.m_defaultTimerValue,
+        timer_Ingots: s.m_ingotsTimer,
+        timer_BaseItemCatalyst: rarityMap(s.m_raritiesToTimerMapBaseItemAndCatalyst),
+        timer_Lottery: rarityMap(s.m_raritiesToTimerMapLotteryTicket),
+        probability_Lottery: rarityMap(s.m_raritiesToProbabilityMapLotteryTicket),
+        sideProducts: Object.fromEntries((s.m_possibleSideProductsAndWeights || []).map((x) => [x.m_weightedReward.m_reward.RowName, x.m_weightedReward.m_weight])),
+    };
+    if (JSON.stringify(settings) !== JSON.stringify(forgeSettings)) note(`forgeSettings: ${JSON.stringify(forgeSettings)} -> ${JSON.stringify(settings)}`);
+    forgeSettings = settings;
+
+    const recipes = {};
+    for (const r of DT.AlienForgeIngotsRecipes_DT) {
+        recipes[r.Name] = {
+            rewardAmount: r.m_amountOfRewards,
+            ingredients: Object.fromEntries(r.m_requiredMaterials.map((m) => [m.m_ingredient.RowName, m.m_amount])),
+            rewardChance: Object.fromEntries(r.m_possibleRewardsAndWeights.map((m) => [m.m_reward.RowName, m.m_weight])),
+        };
+        if (!forgeRecipes[r.Name]) note(`NEW forge recipe ${r.Name}`);
+        else if (JSON.stringify(forgeRecipes[r.Name]) !== JSON.stringify(recipes[r.Name])) note(`forge recipe ${r.Name} changed`);
+    }
+    forgeRecipes = recipes;
+
+    // How many of a material a perk roll uses depends on the material's rarity.
+    const materialRarity = Object.fromEntries(DT.Materials_DT.map((m) => [m.Name, strip(m.m_rarity)]));
+    for (const p of DT.RolledPerks_DT) {
+        const hosts = (p.m_materialsHostingThisPerk || []).map((m) => m.RowName);
+        if (!hosts.length) continue; // not forgeable (e.g. night vision comes from the helmet upgrade)
+        const ov = p.m_attributeModiferRolledValueOverride;
+        const entry = {
+            description: txt(p.m_displayName),
+            elite: p.m_isElitePerk,
+            equipment: tags(p.m_itemTags),
+            items: Object.fromEntries(hosts.map((m) => [m, settings.rarityAmount[materialRarity[m]] ?? 1])),
+            attributes: (p.m_attributeModifiers || []).map((a) => ({
+                attribute: a.m_attribute, type: a.m_modifierType, value: a.m_modifierValue, minValue: a.m_minAttributeValue,
+                duration: a.m_duration, lerpTime: a.m_lerpTime, lerpStartValue: a.m_lerpStartModifierValue,
+                lerpEndValue: a.m_lerpEndModifierValue, runtimeValue: a.m_runtimeAttributeValue,
+            })),
+        };
+        if (ov) entry.attributeOverrides = {minValue: ov.m_minValue, stepGranularity: ov.m_stepGranularity, numSteps: ov.m_numSteps, calculatedMaxValue: ov.m_calculatedMaxValue};
+        if (forgePerks[p.Name]) merge(forgePerks[p.Name], entry, p.Name);
+        else {
+            forgePerks[p.Name] = entry;
+            note(`NEW forge perk ${p.Name} (${entry.description}; ${hosts.join(", ")})`);
+        }
+    }
+} else {
+    note("forge: skipped, export has no forge tables (re-export with the current HUB-EXPORT.md snippet)");
+}
+
 // ----------------------------------------------------------- consumables
 // The game renamed the grenades; the stash reports the ShockGrenade keys.
 const RENAMES = {
@@ -406,7 +470,7 @@ const oldItems = read("items.json");
 const items = buildItems({
     weapons, materials, consumables, shields, helmets,
     backpacks: read("backpacks.json"), attachments, printing, missions, jobs,
-    personalQuarters: quarters, forgePerks: read("forgePerks.json"), forgeRecipes: read("forgeRecipes.json"),
+    personalQuarters: quarters, forgePerks, forgeRecipes,
 }, Object.keys(oldItems).map((k) => RENAMES[k] || k));
 
 // ----------------------------------------------------------------- write
@@ -419,6 +483,9 @@ write("consumables.json", consumables);
 write("printing.json", printing);
 write("jobs.json", jobs);
 write("localization.json", localization);
+write("forgePerks.json", forgePerks);
+write("forgeRecipes.json", forgeRecipes);
+write("forgeSettings.json", forgeSettings);
 write("items.json", items);
 
 console.log(changes.join("\n"));

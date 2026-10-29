@@ -786,5 +786,56 @@
       "numSteps": 1,
       "calculatedMaxValue": 3
     }
+  },
+  "Perk_EmergencyCloakBag": {
+    "description": "At low health, briefly cloaks you.",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "IsolateSampleClassified": 1
+    },
+    "attributes": [],
+    "attributeOverrides": {
+      "minValue": 3,
+      "stepGranularity": 1,
+      "numSteps": 5,
+      "calculatedMaxValue": 7
+    }
+  },
+  "Perk_EmergencySafeguardBag": {
+    "description": "At low health, deploys a protective dome.",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "UncataloguedWeatherCrystal": 2
+    },
+    "attributes": [],
+    "attributeOverrides": {
+      "minValue": 0,
+      "stepGranularity": 25,
+      "numSteps": 5,
+      "calculatedMaxValue": 100
+    }
+  },
+  "Perk_EmergencyWardBag": {
+    "description": "At low health, deploys a healing field.",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "AnomalousHotFragment": 1
+    },
+    "attributes": [],
+    "attributeOverrides": {
+      "minValue": 0,
+      "stepGranularity": 25,
+      "numSteps": 5,
+      "calculatedMaxValue": 100
+    }
   }
 }

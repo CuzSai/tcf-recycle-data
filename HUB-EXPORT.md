@@ -15,7 +15,8 @@ The hub (hub.liightning.dev) serves the live game tables to logged-in users.
 (async () => {
   const tables = ["PRO_Weapons","PRO_Tuning","PRO_Mods","PRO_PlayerShield","PRO_Helmets","PRO_Bags",
     "PRO_Abilities","Pro_KeyCards","Contract_DT","Locations_DT","TechTreeNodes_DT",
-    "PlayerQuarterUpgrades_DT","QuestItems_DT","Materials_DT","Factions_DT","Currencies_DT"];
+    "PlayerQuarterUpgrades_DT","QuestItems_DT","Materials_DT","Factions_DT","Currencies_DT",
+    "RolledPerks_DT","AlienForgeIngotsRecipes_DT","AlienForgeSettings_DT"];
   const strings = ["ST_Contracts","ST_Weapons","ST_Station","ST_Materials","ST_Equipment",
     "ST_Abilities","ST_Mods","ST_Factions"];
   const bundle = {datatables: {}, localization: {}, fetchedAt: new Date().toISOString()};
@@ -57,6 +58,7 @@ run. Running the import twice in a row reports 0 changes the second time.
 | jobs.json | new jobs from the `NEW-` series and the Badum faction; jobs the game disabled are removed. The plain `Easy-/Medium-/Hard-` rows are original-game leftovers and are skipped. |
 | printing.json | follows key renames |
 | localization.json | names for materials that had none |
+| forgePerks.json, forgeRecipes.json, forgeSettings.json | forge perks (new perks, host materials, roll ranges), ingot recipes, forge settings. Perks with no host material (night vision) are skipped: they don't come from the forge. Amount per roll follows the material's rarity (`rarityAmount`). |
 | items.json | rebuilt from all of the above, including the `uses` index |
 
 `missions.json` and `attachments.json` are only compared: anything new is

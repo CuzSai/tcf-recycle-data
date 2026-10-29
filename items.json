@@ -13384,7 +13384,12 @@
       "missions": {},
       "jobs": {},
       "quarters": {},
-      "forge": {}
+      "forge": {
+        "Perk_EmergencySafeguardBag": {
+          "inGameName": "At low health, deploys a protective dome.",
+          "amount": 2
+        }
+      }
     }
   },
   "IsolateSampleClassified": {
@@ -13405,7 +13410,12 @@
       "missions": {},
       "jobs": {},
       "quarters": {},
-      "forge": {}
+      "forge": {
+        "Perk_EmergencyCloakBag": {
+          "inGameName": "At low health, briefly cloaks you.",
+          "amount": 1
+        }
+      }
     }
   },
   "AnomalousHotFragment": {
@@ -13426,7 +13436,12 @@
       "missions": {},
       "jobs": {},
       "quarters": {},
-      "forge": {}
+      "forge": {
+        "Perk_EmergencyWardBag": {
+          "inGameName": "At low health, deploys a healing field.",
+          "amount": 1
+        }
+      }
     }
   },
   "QuestItem_AlphaWardenBait": {
