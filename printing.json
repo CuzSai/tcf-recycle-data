@@ -126,17 +126,17 @@
     "Cables": 2,
     "SpareCasing": 2
   },
-  "Consumable_Grenade_02": {
+  "ShockGrenade_02": {
     "SoftCurrency": 1000,
     "CopperWire": 2,
     "SpareCasing": 2
   },
-  "Consumable_Grenade_03": {
+  "ShockGrenade_03": {
     "SoftCurrency": 3000,
     "AluminumParts": 1,
     "MagneticFieldStabilizer": 2
   },
-  "Consumable_Grenade_05": {
+  "ShockGrenade_05": {
     "SoftCurrency": 6800,
     "ChargedForgeIronIngot": 4,
     "Alien_Scrap": 8

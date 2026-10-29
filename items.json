@@ -25,7 +25,12 @@
           "amount": 5
         }
       },
-      "jobs": {},
+      "jobs": {
+        "NEW-Easy-KOR-Mine-1": {
+          "inGameName": "Flawed but useful",
+          "amount": 5
+        }
+      },
       "quarters": {
         "generate_aurum_1.2": {
           "inGameName": "Generate aurum 1.2",
@@ -83,7 +88,12 @@
           "amount": 3
         }
       },
-      "jobs": {},
+      "jobs": {
+        "NEW-Easy-KOR-Mine-4": {
+          "inGameName": "Cloudy with a Chance of Laser",
+          "amount": 1
+        }
+      },
       "quarters": {
         "generate_aurum_2.0": {
           "inGameName": "Generate aurum 2.0",
@@ -96,6 +106,10 @@
         "aurum_passive_cap_2.3": {
           "inGameName": "Aurum passive cap 2.3",
           "amount": 4
+        },
+        "trading_cooldown_2.2": {
+          "inGameName": "Trading cooldown 2.2",
+          "amount": 8
         }
       },
       "forge": {}
@@ -219,6 +233,10 @@
         "aurum_passive_cap_3.4": {
           "inGameName": "Aurum passive cap 3.4",
           "amount": 5
+        },
+        "trading_cooldown_3.1": {
+          "inGameName": "Trading cooldown 3.1",
+          "amount": 6
         }
       },
       "forge": {}
@@ -290,6 +308,10 @@
         "aurum_passive_cap_4.0": {
           "inGameName": "Aurum passive cap 4.0",
           "amount": 3
+        },
+        "trading_tradefee_2.1": {
+          "inGameName": "Trading tradefee 2.1",
+          "amount": 3
         }
       },
       "forge": {}
@@ -346,6 +368,18 @@
         "aurum_passive_cap_4.4": {
           "inGameName": "Aurum passive cap 4.4",
           "amount": 1
+        },
+        "trading_market_4.2": {
+          "inGameName": "Trading market 4.2",
+          "amount": 1
+        },
+        "trading_marketfee_4.2": {
+          "inGameName": "Trading marketfee 4.2",
+          "amount": 1
+        },
+        "trading_cooldown_5.3": {
+          "inGameName": "Trading cooldown 5.3",
+          "amount": 1
         }
       },
       "forge": {}
@@ -399,6 +433,10 @@
         "generate_aurum_4.1": {
           "inGameName": "Generate aurum 4.1",
           "amount": 19
+        },
+        "trading_tradefee_4.1": {
+          "inGameName": "Trading tradefee 4.1",
+          "amount": 15
         }
       },
       "forge": {
@@ -479,6 +517,14 @@
         "kmarks_passive_cap_4.3": {
           "inGameName": "Kmarks passive cap 4.3",
           "amount": 2
+        },
+        "trading_marketfee_4.4": {
+          "inGameName": "Trading marketfee 4.4",
+          "amount": 15
+        },
+        "trading_tradefee_2.1": {
+          "inGameName": "Trading tradefee 2.1",
+          "amount": 5
         }
       },
       "forge": {}
@@ -535,6 +581,10 @@
         "aurum_passive_cap_1.2": {
           "inGameName": "Aurum passive cap 1.2",
           "amount": 8
+        },
+        "trading_cooldown_3.4": {
+          "inGameName": "Trading cooldown 3.4",
+          "amount": 18
         }
       },
       "forge": {}
@@ -580,6 +630,10 @@
         "NEW-Medium-KOR-Mine-4": {
           "inGameName": "Titans of Industry",
           "amount": 6
+        },
+        "NEW-Easy-KOR-Mine-3": {
+          "inGameName": "Altered Nickel Supplies",
+          "amount": 1
         }
       },
       "quarters": {
@@ -598,6 +652,10 @@
         "aurum_passive_cap_2.0": {
           "inGameName": "Aurum passive cap 2.0",
           "amount": 4
+        },
+        "trading_tradefee_2.4": {
+          "inGameName": "Trading tradefee 2.4",
+          "amount": 5
         }
       },
       "forge": {}
@@ -620,7 +678,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_4.2": {
+          "inGameName": "Trading marketfee 4.2",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -658,6 +721,10 @@
         "NEW-Hard-KOR-Gather-6": {
           "inGameName": "Stocking Up",
           "amount": 16
+        },
+        "NEW-Easy-KOR-Mine-2": {
+          "inGameName": "Brittle Titan Ore",
+          "amount": 10
         }
       },
       "quarters": {
@@ -755,6 +822,10 @@
         "kmarks_passive_cap_3.3": {
           "inGameName": "Kmarks passive cap 3.3",
           "amount": 2
+        },
+        "trading_marketfee_2.3": {
+          "inGameName": "Trading marketfee 2.3",
+          "amount": 9
         }
       },
       "forge": {
@@ -819,9 +890,22 @@
         "NEW-Hard-Osiris-Brightcaps-1": {
           "inGameName": "Harvest Day",
           "amount": 15
+        },
+        "NEW-Easy-Osiris-Brightcaps-1": {
+          "inGameName": "Botanist I",
+          "amount": 1
+        },
+        "NEW-Easy-Osiris-Brightcaps-2": {
+          "inGameName": "Botanist II",
+          "amount": 4
         }
       },
-      "quarters": {},
+      "quarters": {
+        "trading_cooldown_1.1": {
+          "inGameName": "Trading cooldown 1.1",
+          "amount": 4
+        }
+      },
       "forge": {
         "Perk_HealthRegen": {
           "inGameName": "Health restoration per second",
@@ -914,6 +998,14 @@
         "aurum_passive_cap_3.2": {
           "inGameName": "Aurum passive cap 3.2",
           "amount": 3
+        },
+        "trading_items_5.0": {
+          "inGameName": "Trading items 5.0",
+          "amount": 3
+        },
+        "trading_tradefee_2.3": {
+          "inGameName": "Trading tradefee 2.3",
+          "amount": 1
         }
       },
       "forge": {
@@ -992,6 +1084,14 @@
         "aurum_passive_cap_2.3": {
           "inGameName": "Aurum passive cap 2.3",
           "amount": 6
+        },
+        "trading_items_4.1": {
+          "inGameName": "Trading items 4.1",
+          "amount": 5
+        },
+        "trading_tradefee_1.0": {
+          "inGameName": "Trading tradefee 1.0",
+          "amount": 1
         }
       },
       "forge": {
@@ -1031,12 +1131,24 @@
         "NEW-Medium-Osiris-BlueRunnerEgg-1": {
           "inGameName": "Egg Delivery III",
           "amount": 3
+        },
+        "NEW-Easy-Osiris-BlueRunnerEgg-1": {
+          "inGameName": "Egg Delivery",
+          "amount": 1
         }
       },
       "quarters": {
         "kmarks_passive_cap_3.2": {
           "inGameName": "Kmarks passive cap 3.2",
           "amount": 9
+        },
+        "trading_items_2.0": {
+          "inGameName": "Trading items 2.0",
+          "amount": 1
+        },
+        "trading_tradefee_4.3": {
+          "inGameName": "Trading tradefee 4.3",
+          "amount": 10
         }
       },
       "forge": {
@@ -1101,6 +1213,10 @@
         "NEW-Medium-ICA-Gather-4": {
           "inGameName": "Air Lock Upgrades",
           "amount": 10
+        },
+        "NEW-Easy-ICA-Gather-3": {
+          "inGameName": "Patching up the Station Hull",
+          "amount": 2
         }
       },
       "quarters": {
@@ -1115,6 +1231,22 @@
         "generate_aurum_1.3": {
           "inGameName": "Generate aurum 1.3",
           "amount": 5
+        },
+        "trading_marketfee_2.4": {
+          "inGameName": "Trading marketfee 2.4",
+          "amount": 10
+        },
+        "trading_tradefee_4.0": {
+          "inGameName": "Trading tradefee 4.0",
+          "amount": 2
+        },
+        "trading_cooldown_2.0": {
+          "inGameName": "Trading cooldown 2.0",
+          "amount": 4
+        },
+        "trading_cooldown_5.1": {
+          "inGameName": "Trading cooldown 5.1",
+          "amount": 20
         }
       },
       "forge": {}
@@ -1143,7 +1275,7 @@
           "inGameName": "Audio Decoy",
           "amount": 2
         },
-        "Consumable_Grenade_02": {
+        "ShockGrenade_02": {
           "inGameName": "Light Grenade",
           "amount": 2
         },
@@ -1186,6 +1318,10 @@
         "NEW-Hard-ICA-Gather-6": {
           "inGameName": "Scrapping Station Improvements",
           "amount": 12
+        },
+        "NEW-Medium-ICA-Gather-2": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 2
         }
       },
       "quarters": {
@@ -1289,6 +1425,22 @@
         "generate_kmarks_2.3": {
           "inGameName": "Generate kmarks 2.3",
           "amount": 11
+        },
+        "trading_market_4.2": {
+          "inGameName": "Trading market 4.2",
+          "amount": 1
+        },
+        "trading_tradefee_1.2": {
+          "inGameName": "Trading tradefee 1.2",
+          "amount": 8
+        },
+        "trading_tradefee_3.2": {
+          "inGameName": "Trading tradefee 3.2",
+          "amount": 1
+        },
+        "trading_tradefee_4.3": {
+          "inGameName": "Trading tradefee 4.3",
+          "amount": 2
         }
       },
       "forge": {}
@@ -1358,6 +1510,10 @@
         "reduce_pq_upgrading_time_4.1": {
           "inGameName": "Reduce pq upgrading time 4.1",
           "amount": 18
+        },
+        "trading_tradefee_3.3": {
+          "inGameName": "Trading tradefee 3.3",
+          "amount": 3
         }
       },
       "forge": {}
@@ -1412,6 +1568,18 @@
         "NEW-Hard-Osiris-Gather-2": {
           "inGameName": "Sensor Array Repairs",
           "amount": 12
+        },
+        "NEW-Easy-KOR-Gather-3": {
+          "inGameName": "Ship Repairs",
+          "amount": 1
+        },
+        "NEW-Medium-KOR-Gather-4": {
+          "inGameName": "Business Class",
+          "amount": 2
+        },
+        "NEW-Easy-ICA-Gather-2": {
+          "inGameName": "Medical Supplies",
+          "amount": 2
         }
       },
       "quarters": {
@@ -1429,6 +1597,10 @@
         },
         "generate_kmarks_1.4": {
           "inGameName": "Generate kmarks 1.4",
+          "amount": 5
+        },
+        "trading_market_2.1": {
+          "inGameName": "Trading market 2.1",
           "amount": 5
         }
       },
@@ -1484,6 +1656,14 @@
         "NEW-Hard-ICA-Gather-3": {
           "inGameName": "Recoil Compensation",
           "amount": 12
+        },
+        "NEW-Easy-KOR-Gather-1": {
+          "inGameName": "Reinforcing the old Mine",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Gather-4": {
+          "inGameName": "Business Class",
+          "amount": 2
         }
       },
       "quarters": {
@@ -1502,6 +1682,10 @@
         "aurum_passive_cap_1.3": {
           "inGameName": "Aurum passive cap 1.3",
           "amount": 5
+        },
+        "trading_items_1.0": {
+          "inGameName": "Trading items 1.0",
+          "amount": 2
         }
       },
       "forge": {}
@@ -1643,6 +1827,10 @@
         "kmarks_passive_cap_2.0": {
           "inGameName": "Kmarks passive cap 2.0",
           "amount": 3
+        },
+        "trading_marketfee_1.1": {
+          "inGameName": "Trading marketfee 1.1",
+          "amount": 3
         }
       },
       "forge": {}
@@ -1698,6 +1886,10 @@
         "NEW-Hard-Osiris-Gather-7": {
           "inGameName": "Research Drone Repairs",
           "amount": 3
+        },
+        "NEW-Medium-Osiris-Gather-3": {
+          "inGameName": "Research Drone Repairs",
+          "amount": 1
         }
       },
       "quarters": {
@@ -1708,6 +1900,10 @@
         "kmarks_passive_cap_3.3": {
           "inGameName": "Kmarks passive cap 3.3",
           "amount": 1
+        },
+        "trading_tradefee_4.0": {
+          "inGameName": "Trading tradefee 4.0",
+          "amount": 4
         }
       },
       "forge": {}
@@ -1752,6 +1948,10 @@
         "NEW-Hard-KOR-Gather-1": {
           "inGameName": "Excavator Improvements",
           "amount": 3
+        },
+        "NEW-Easy-KOR-Gather-2": {
+          "inGameName": "Mining Machinery",
+          "amount": 2
         }
       },
       "quarters": {
@@ -1766,6 +1966,10 @@
         "daily_crate_3.0": {
           "inGameName": "Daily crate 3.0",
           "amount": 12
+        },
+        "trading_tradefee_1.1": {
+          "inGameName": "Trading tradefee 1.1",
+          "amount": 4
         }
       },
       "forge": {}
@@ -1845,6 +2049,22 @@
         "kmarks_passive_cap_2.1": {
           "inGameName": "Kmarks passive cap 2.1",
           "amount": 1
+        },
+        "trading_marketfee_2.1": {
+          "inGameName": "Trading marketfee 2.1",
+          "amount": 3
+        },
+        "trading_tradefee_4.1": {
+          "inGameName": "Trading tradefee 4.1",
+          "amount": 15
+        },
+        "trading_cooldown_1.0": {
+          "inGameName": "Trading cooldown 1.0",
+          "amount": 1
+        },
+        "trading_cooldown_3.1": {
+          "inGameName": "Trading cooldown 3.1",
+          "amount": 6
         }
       },
       "forge": {}
@@ -1958,6 +2178,14 @@
         "aurum_passive_cap_3.1": {
           "inGameName": "Aurum passive cap 3.1",
           "amount": 8
+        },
+        "trading_market_2.1": {
+          "inGameName": "Trading market 2.1",
+          "amount": 3
+        },
+        "trading_marketfee_3.3": {
+          "inGameName": "Trading marketfee 3.3",
+          "amount": 7
         }
       },
       "forge": {}
@@ -2001,6 +2229,10 @@
         "NEW-Hard-ICA-Gather-6": {
           "inGameName": "Scrapping Station Improvements",
           "amount": 4
+        },
+        "NEW-Medium-ICA-Gather-2": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 2
         }
       },
       "quarters": {
@@ -2015,6 +2247,18 @@
         "kmarks_passive_cap_4.1": {
           "inGameName": "Kmarks passive cap 4.1",
           "amount": 11
+        },
+        "trading_items_4.0": {
+          "inGameName": "Trading items 4.0",
+          "amount": 5
+        },
+        "trading_tradefee_4.1": {
+          "inGameName": "Trading tradefee 4.1",
+          "amount": 15
+        },
+        "trading_cooldown_5.2": {
+          "inGameName": "Trading cooldown 5.2",
+          "amount": 10
         }
       },
       "forge": {}
@@ -2097,6 +2341,10 @@
         "generate_kmarks_3.4": {
           "inGameName": "Generate kmarks 3.4",
           "amount": 12
+        },
+        "trading_marketfee_1.4": {
+          "inGameName": "Trading marketfee 1.4",
+          "amount": 1
         }
       },
       "forge": {}
@@ -2157,6 +2405,10 @@
         "generate_kmarks_4.1": {
           "inGameName": "Generate kmarks 4.1",
           "amount": 1
+        },
+        "trading_marketfee_2.3": {
+          "inGameName": "Trading marketfee 2.3",
+          "amount": 3
         }
       },
       "forge": {}
@@ -2220,6 +2472,10 @@
         "NEW-Hard-ICA-Powerup-1": {
           "inGameName": "A Solution",
           "amount": 5
+        },
+        "NEW-Easy-ICA-Powerup-1": {
+          "inGameName": "Energy Crisis",
+          "amount": 1
         }
       },
       "quarters": {
@@ -2238,6 +2494,22 @@
         "aurum_passive_cap_3.0": {
           "inGameName": "Aurum passive cap 3.0",
           "amount": 4
+        },
+        "trading_market_2.0": {
+          "inGameName": "Trading market 2.0",
+          "amount": 1
+        },
+        "trading_items_5.0": {
+          "inGameName": "Trading items 5.0",
+          "amount": 5
+        },
+        "trading_tradefee_2.0": {
+          "inGameName": "Trading tradefee 2.0",
+          "amount": 3
+        },
+        "trading_cooldown_4.0": {
+          "inGameName": "Trading cooldown 4.0",
+          "amount": 10
         }
       },
       "forge": {
@@ -2308,6 +2580,18 @@
         "daily_crate_3.1": {
           "inGameName": "Daily crate 3.1",
           "amount": 1
+        },
+        "trading_marketfee_3.3": {
+          "inGameName": "Trading marketfee 3.3",
+          "amount": 7
+        },
+        "trading_cooldown_2.0": {
+          "inGameName": "Trading cooldown 2.0",
+          "amount": 3
+        },
+        "trading_cooldown_3.3": {
+          "inGameName": "Trading cooldown 3.3",
+          "amount": 8
         }
       },
       "forge": {}
@@ -2376,7 +2660,20 @@
           "amount": 3
         }
       },
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_3.4": {
+          "inGameName": "Trading marketfee 3.4",
+          "amount": 6
+        },
+        "trading_tradefee_1.1": {
+          "inGameName": "Trading tradefee 1.1",
+          "amount": 1
+        },
+        "trading_cooldown_3.3": {
+          "inGameName": "Trading cooldown 3.3",
+          "amount": 4
+        }
+      },
       "forge": {}
     }
   },
@@ -2399,7 +2696,7 @@
           "inGameName": "Portable Lab",
           "amount": 5
         },
-        "Consumable_Grenade_03": {
+        "ShockGrenade_03": {
           "inGameName": "Standard Grenade",
           "amount": 2
         },
@@ -2421,6 +2718,14 @@
       "jobs": {
         "NEW-Medium-Osiris-Gather-1": {
           "inGameName": "Surveillance Center",
+          "amount": 2
+        },
+        "NEW-Easy-KOR-Gather-3": {
+          "inGameName": "Ship Repairs",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Gather-4": {
+          "inGameName": "Business Class",
           "amount": 2
         }
       },
@@ -2444,6 +2749,14 @@
         "kmarks_passive_cap_2.3": {
           "inGameName": "Kmarks passive cap 2.3",
           "amount": 10
+        },
+        "trading_market_3.2": {
+          "inGameName": "Trading market 3.2",
+          "amount": 7
+        },
+        "trading_items_2.0": {
+          "inGameName": "Trading items 2.0",
+          "amount": 3
         }
       },
       "forge": {}
@@ -2503,6 +2816,10 @@
         "NEW-Hard-Osiris-Gather-7": {
           "inGameName": "Research Drone Repairs",
           "amount": 3
+        },
+        "NEW-Medium-Osiris-Gather-3": {
+          "inGameName": "Research Drone Repairs",
+          "amount": 2
         }
       },
       "quarters": {
@@ -2573,6 +2890,10 @@
         "generate_kmarks_3.3": {
           "inGameName": "Generate kmarks 3.3",
           "amount": 5625
+        },
+        "trading_marketfee_1.0": {
+          "inGameName": "Trading marketfee 1.0",
+          "amount": 1000
         }
       },
       "forge": {}
@@ -2638,7 +2959,12 @@
           "amount": 8
         }
       },
-      "quarters": {},
+      "quarters": {
+        "trading_items_5.1": {
+          "inGameName": "Trading items 5.1",
+          "amount": 20
+        }
+      },
       "forge": {
         "Perk_HealingSpeed": {
           "inGameName": "Faster Stim and Medkit use",
@@ -2703,6 +3029,10 @@
         "aurum_passive_cap_2.1": {
           "inGameName": "Aurum passive cap 2.1",
           "amount": 8
+        },
+        "trading_tradefee_2.4": {
+          "inGameName": "Trading tradefee 2.4",
+          "amount": 9
         }
       },
       "forge": {}
@@ -2774,12 +3104,24 @@
         "NEW-Medium-Osiris-Flora-1": {
           "inGameName": "Cross-Breeding",
           "amount": 8
+        },
+        "NEW-Easy-Osiris-Flora-and-PvE-1": {
+          "inGameName": "Pesticide",
+          "amount": 2
         }
       },
       "quarters": {
         "increase_stash_2.1": {
           "inGameName": "Increase stash 2.1",
           "amount": 3
+        },
+        "trading_cooldown_1.0": {
+          "inGameName": "Trading cooldown 1.0",
+          "amount": 4
+        },
+        "trading_cooldown_3.2": {
+          "inGameName": "Trading cooldown 3.2",
+          "amount": 20
         }
       },
       "forge": {
@@ -2846,6 +3188,14 @@
         "generate_kmarks_4.1": {
           "inGameName": "Generate kmarks 4.1",
           "amount": 4
+        },
+        "trading_tradefee_2.3": {
+          "inGameName": "Trading tradefee 2.3",
+          "amount": 7
+        },
+        "trading_cooldown_2.2": {
+          "inGameName": "Trading cooldown 2.2",
+          "amount": 2
         }
       },
       "forge": {
@@ -2924,6 +3274,10 @@
         "increase_stash_3.1": {
           "inGameName": "Increase stash 3.1",
           "amount": 3
+        },
+        "trading_marketfee_1.4": {
+          "inGameName": "Trading marketfee 1.4",
+          "amount": 1
         }
       },
       "forge": {
@@ -2973,6 +3327,14 @@
         "generate_aurum_3.0": {
           "inGameName": "Generate aurum 3.0",
           "amount": 12
+        },
+        "trading_cooldown_2.1": {
+          "inGameName": "Trading cooldown 2.1",
+          "amount": 1
+        },
+        "trading_cooldown_4.2": {
+          "inGameName": "Trading cooldown 4.2",
+          "amount": 6
         }
       },
       "forge": {
@@ -3034,6 +3396,14 @@
         "aurum_passive_cap_2.2": {
           "inGameName": "Aurum passive cap 2.2",
           "amount": 11
+        },
+        "trading_items_1.0": {
+          "inGameName": "Trading items 1.0",
+          "amount": 1
+        },
+        "trading_cooldown_1.1": {
+          "inGameName": "Trading cooldown 1.1",
+          "amount": 5
         }
       },
       "forge": {}
@@ -3107,6 +3477,18 @@
         "aurum_passive_cap_2.2": {
           "inGameName": "Aurum passive cap 2.2",
           "amount": 15
+        },
+        "trading_market_1.0": {
+          "inGameName": "Trading market 1.0",
+          "amount": 2
+        },
+        "trading_cooldown_3.4": {
+          "inGameName": "Trading cooldown 3.4",
+          "amount": 9
+        },
+        "trading_cooldown_5.2": {
+          "inGameName": "Trading cooldown 5.2",
+          "amount": 40
         }
       },
       "forge": {}
@@ -3158,6 +3540,14 @@
         "kmarks_passive_cap_3.2": {
           "inGameName": "Kmarks passive cap 3.2",
           "amount": 21
+        },
+        "trading_marketfee_1.0": {
+          "inGameName": "Trading marketfee 1.0",
+          "amount": 1
+        },
+        "trading_marketfee_2.4": {
+          "inGameName": "Trading marketfee 2.4",
+          "amount": 10
         }
       },
       "forge": {}
@@ -3178,7 +3568,7 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_Grenade_02": {
+        "ShockGrenade_02": {
           "inGameName": "Light Grenade",
           "amount": 2
         }
@@ -3219,6 +3609,14 @@
         "generate_kmarks_1.3": {
           "inGameName": "Generate kmarks 1.3",
           "amount": 5
+        },
+        "trading_market_3.2": {
+          "inGameName": "Trading market 3.2",
+          "amount": 6
+        },
+        "trading_marketfee_1.2": {
+          "inGameName": "Trading marketfee 1.2",
+          "amount": 2
         }
       },
       "forge": {}
@@ -3304,6 +3702,26 @@
         "kmarks_passive_cap_2.2": {
           "inGameName": "Kmarks passive cap 2.2",
           "amount": 2
+        },
+        "trading_market_3.0": {
+          "inGameName": "Trading market 3.0",
+          "amount": 7
+        },
+        "trading_marketfee_2.1": {
+          "inGameName": "Trading marketfee 2.1",
+          "amount": 5
+        },
+        "trading_marketfee_3.1": {
+          "inGameName": "Trading marketfee 3.1",
+          "amount": 4
+        },
+        "trading_items_4.0": {
+          "inGameName": "Trading items 4.0",
+          "amount": 3
+        },
+        "trading_cooldown_5.1": {
+          "inGameName": "Trading cooldown 5.1",
+          "amount": 10
         }
       },
       "forge": {}
@@ -3383,6 +3801,14 @@
         "aurum_passive_cap_2.4": {
           "inGameName": "Aurum passive cap 2.4",
           "amount": 15
+        },
+        "trading_market_1.0": {
+          "inGameName": "Trading market 1.0",
+          "amount": 1
+        },
+        "trading_market_3.1": {
+          "inGameName": "Trading market 3.1",
+          "amount": 11
         }
       },
       "forge": {}
@@ -3439,6 +3865,18 @@
         "aurum_passive_cap_3.0": {
           "inGameName": "Aurum passive cap 3.0",
           "amount": 15
+        },
+        "trading_market_2.0": {
+          "inGameName": "Trading market 2.0",
+          "amount": 2
+        },
+        "trading_market_3.1": {
+          "inGameName": "Trading market 3.1",
+          "amount": 11
+        },
+        "trading_marketfee_3.0": {
+          "inGameName": "Trading marketfee 3.0",
+          "amount": 8
         }
       },
       "forge": {}
@@ -3480,7 +3918,20 @@
           "amount": 10
         }
       },
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_2.2": {
+          "inGameName": "Trading marketfee 2.2",
+          "amount": 5
+        },
+        "trading_items_4.0": {
+          "inGameName": "Trading items 4.0",
+          "amount": 8
+        },
+        "trading_tradefee_1.0": {
+          "inGameName": "Trading tradefee 1.0",
+          "amount": 8
+        }
+      },
       "forge": {}
     }
   },
@@ -3536,6 +3987,34 @@
         "kmarks_passive_cap_4.2": {
           "inGameName": "Kmarks passive cap 4.2",
           "amount": 2
+        },
+        "trading_market_4.2": {
+          "inGameName": "Trading market 4.2",
+          "amount": 1
+        },
+        "trading_items_5.0": {
+          "inGameName": "Trading items 5.0",
+          "amount": 2
+        },
+        "trading_tradefee_3.2": {
+          "inGameName": "Trading tradefee 3.2",
+          "amount": 1
+        },
+        "trading_tradefee_4.0": {
+          "inGameName": "Trading tradefee 4.0",
+          "amount": 1
+        },
+        "trading_tradefee_4.3": {
+          "inGameName": "Trading tradefee 4.3",
+          "amount": 1
+        },
+        "trading_cooldown_2.1": {
+          "inGameName": "Trading cooldown 2.1",
+          "amount": 1
+        },
+        "trading_cooldown_3.2": {
+          "inGameName": "Trading cooldown 3.2",
+          "amount": 5
         }
       },
       "forge": {}
@@ -3583,6 +4062,18 @@
         "aurum_passive_cap_2.4": {
           "inGameName": "Aurum passive cap 2.4",
           "amount": 8
+        },
+        "trading_market_3.0": {
+          "inGameName": "Trading market 3.0",
+          "amount": 14
+        },
+        "trading_marketfee_1.0": {
+          "inGameName": "Trading marketfee 1.0",
+          "amount": 2
+        },
+        "trading_tradefee_3.3": {
+          "inGameName": "Trading tradefee 3.3",
+          "amount": 6
         }
       },
       "forge": {}
@@ -3631,6 +4122,10 @@
         "generate_aurum_2.0": {
           "inGameName": "Generate aurum 2.0",
           "amount": 5
+        },
+        "trading_marketfee_2.0": {
+          "inGameName": "Trading marketfee 2.0",
+          "amount": 6
         }
       },
       "forge": {}
@@ -3680,6 +4175,18 @@
         "generate_kmarks_3.0": {
           "inGameName": "Generate kmarks 3.0",
           "amount": 6
+        },
+        "trading_marketfee_4.3": {
+          "inGameName": "Trading marketfee 4.3",
+          "amount": 5
+        },
+        "trading_items_3.0": {
+          "inGameName": "Trading items 3.0",
+          "amount": 2
+        },
+        "trading_cooldown_3.0": {
+          "inGameName": "Trading cooldown 3.0",
+          "amount": 3
         }
       },
       "forge": {}
@@ -3812,6 +4319,14 @@
         "generate_kmarks_2.1": {
           "inGameName": "Generate kmarks 2.1",
           "amount": 4
+        },
+        "trading_marketfee_1.3": {
+          "inGameName": "Trading marketfee 1.3",
+          "amount": 1
+        },
+        "trading_tradefee_3.2": {
+          "inGameName": "Trading tradefee 3.2",
+          "amount": 10
         }
       },
       "forge": {}
@@ -3864,6 +4379,22 @@
         "aurum_passive_cap_3.1": {
           "inGameName": "Aurum passive cap 3.1",
           "amount": 10
+        },
+        "trading_marketfee_2.2": {
+          "inGameName": "Trading marketfee 2.2",
+          "amount": 2
+        },
+        "trading_marketfee_3.2": {
+          "inGameName": "Trading marketfee 3.2",
+          "amount": 5
+        },
+        "trading_items_5.1": {
+          "inGameName": "Trading items 5.1",
+          "amount": 10
+        },
+        "trading_items_5.2": {
+          "inGameName": "Trading items 5.2",
+          "amount": 5
         }
       },
       "forge": {}
@@ -3892,7 +4423,7 @@
           "inGameName": "Oil Pump Beacon",
           "amount": 12
         },
-        "Consumable_Grenade_03": {
+        "ShockGrenade_03": {
           "inGameName": "Standard Grenade",
           "amount": 1
         },
@@ -3923,7 +4454,12 @@
           "amount": 3
         }
       },
-      "jobs": {},
+      "jobs": {
+        "NEW-Easy-ICA-Gather-1": {
+          "inGameName": "Cooking Equipment",
+          "amount": 2
+        }
+      },
       "quarters": {
         "playerquarter_6": {
           "inGameName": "Player Quarters Level 6",
@@ -3940,6 +4476,10 @@
         "daily_crate_2.0": {
           "inGameName": "Daily crate 2.0",
           "amount": 4
+        },
+        "trading_cooldown_5.1": {
+          "inGameName": "Trading cooldown 5.1",
+          "amount": 20
         }
       },
       "forge": {}
@@ -4011,6 +4551,14 @@
         "NEW-Hard-ICA-Gather-and-PvE-1": {
           "inGameName": "Alternative Energies",
           "amount": 15
+        },
+        "NEW-Easy-ICA-Gather-4": {
+          "inGameName": "Espionage",
+          "amount": 2
+        },
+        "NEW-Easy-Osiris-Gather-1": {
+          "inGameName": "Spinal Bases",
+          "amount": 4
         }
       },
       "quarters": {
@@ -4164,7 +4712,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_tradefee_3.1": {
+          "inGameName": "Trading tradefee 3.1",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -4185,7 +4738,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_tradefee_4.2": {
+          "inGameName": "Trading tradefee 4.2",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
@@ -4219,7 +4777,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_market_4.0": {
+          "inGameName": "Trading market 4.0",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_MaxHealth": {
           "inGameName": "Maximum health",
@@ -4249,7 +4812,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_cooldown_5.3": {
+          "inGameName": "Trading cooldown 5.3",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -4305,7 +4873,16 @@
         }
       },
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_tradefee_2.2": {
+          "inGameName": "Trading tradefee 2.2",
+          "amount": 9
+        },
+        "trading_tradefee_3.1": {
+          "inGameName": "Trading tradefee 3.1",
+          "amount": 10
+        }
+      },
       "forge": {
         "Perk_MaxStamina": {
           "inGameName": "Maximum stamina",
@@ -4352,6 +4929,14 @@
         "generate_aurum_2.1": {
           "inGameName": "Generate aurum 2.1",
           "amount": 6
+        },
+        "trading_marketfee_4.1": {
+          "inGameName": "Trading marketfee 4.1",
+          "amount": 10
+        },
+        "trading_items_3.0": {
+          "inGameName": "Trading items 3.0",
+          "amount": 3
         }
       },
       "forge": {
@@ -4408,6 +4993,14 @@
         "aurum_passive_cap_3.2": {
           "inGameName": "Aurum passive cap 3.2",
           "amount": 7
+        },
+        "trading_market_4.0": {
+          "inGameName": "Trading market 4.0",
+          "amount": 5
+        },
+        "trading_tradefee_2.2": {
+          "inGameName": "Trading tradefee 2.2",
+          "amount": 5
         }
       },
       "forge": {
@@ -4457,6 +5050,18 @@
         "playerquarter_9": {
           "inGameName": "Player Quarters Level 9",
           "amount": 3
+        },
+        "trading_market_4.1": {
+          "inGameName": "Trading market 4.1",
+          "amount": 1
+        },
+        "trading_tradefee_4.2": {
+          "inGameName": "Trading tradefee 4.2",
+          "amount": 3
+        },
+        "trading_cooldown_5.3": {
+          "inGameName": "Trading cooldown 5.3",
+          "amount": 10
         }
       },
       "forge": {}
@@ -4532,6 +5137,10 @@
       "quarters": {
         "playerquarter_2": {
           "inGameName": "Player Quarters Level 2",
+          "amount": 3
+        },
+        "trading_marketfee_1.2": {
+          "inGameName": "Trading marketfee 1.2",
           "amount": 3
         }
       },
@@ -4610,6 +5219,30 @@
         "generate_kmarks_3.0": {
           "inGameName": "Generate kmarks 3.0",
           "amount": 5
+        },
+        "trading_market_4.0": {
+          "inGameName": "Trading market 4.0",
+          "amount": 10
+        },
+        "trading_marketfee_1.1": {
+          "inGameName": "Trading marketfee 1.1",
+          "amount": 3
+        },
+        "trading_marketfee_2.0": {
+          "inGameName": "Trading marketfee 2.0",
+          "amount": 3
+        },
+        "trading_items_3.1": {
+          "inGameName": "Trading items 3.1",
+          "amount": 5
+        },
+        "trading_items_4.1": {
+          "inGameName": "Trading items 4.1",
+          "amount": 10
+        },
+        "trading_cooldown_4.0": {
+          "inGameName": "Trading cooldown 4.0",
+          "amount": 10
         }
       },
       "forge": {
@@ -4662,6 +5295,10 @@
         "NEW-Hard-Osiris-Gather-8": {
           "inGameName": "Don't get crushed",
           "amount": 3
+        },
+        "Badum-hard-1": {
+          "inGameName": "Badum's armor",
+          "amount": 5
         }
       },
       "quarters": {
@@ -4672,6 +5309,18 @@
         "aurum_passive_cap_3.3": {
           "inGameName": "Aurum passive cap 3.3",
           "amount": 6
+        },
+        "trading_market_4.1": {
+          "inGameName": "Trading market 4.1",
+          "amount": 2
+        },
+        "trading_cooldown_4.2": {
+          "inGameName": "Trading cooldown 4.2",
+          "amount": 7
+        },
+        "trading_cooldown_5.3": {
+          "inGameName": "Trading cooldown 5.3",
+          "amount": 20
         }
       },
       "forge": {
@@ -4745,6 +5394,14 @@
         },
         "aurum_passive_cap_4.3": {
           "inGameName": "Aurum passive cap 4.3",
+          "amount": 2
+        },
+        "trading_marketfee_4.3": {
+          "inGameName": "Trading marketfee 4.3",
+          "amount": 1
+        },
+        "trading_cooldown_5.0": {
+          "inGameName": "Trading cooldown 5.0",
           "amount": 2
         }
       },
@@ -5406,6 +6063,14 @@
         "aurum_passive_cap_4.1": {
           "inGameName": "Aurum passive cap 4.1",
           "amount": 135
+        },
+        "trading_marketfee_4.4": {
+          "inGameName": "Trading marketfee 4.4",
+          "amount": 30
+        },
+        "trading_cooldown_5.2": {
+          "inGameName": "Trading cooldown 5.2",
+          "amount": 30
         }
       },
       "forge": {
@@ -5460,6 +6125,10 @@
         "aurum_passive_cap_4.2": {
           "inGameName": "Aurum passive cap 4.2",
           "amount": 53
+        },
+        "trading_items_5.2": {
+          "inGameName": "Trading items 5.2",
+          "amount": 30
         }
       },
       "forge": {}
@@ -5494,6 +6163,10 @@
         "kmarks_passive_cap_4.0": {
           "inGameName": "Kmarks passive cap 4.0",
           "amount": 12
+        },
+        "trading_cooldown_3.0": {
+          "inGameName": "Trading cooldown 3.0",
+          "amount": 3
         }
       },
       "forge": {}
@@ -5520,6 +6193,14 @@
         "generate_aurum_4.1": {
           "inGameName": "Generate aurum 4.1",
           "amount": 11
+        },
+        "trading_marketfee_4.1": {
+          "inGameName": "Trading marketfee 4.1",
+          "amount": 5
+        },
+        "trading_cooldown_5.0": {
+          "inGameName": "Trading cooldown 5.0",
+          "amount": 10
         }
       },
       "forge": {
@@ -5572,6 +6253,14 @@
         "aurum_passive_cap_3.4": {
           "inGameName": "Aurum passive cap 3.4",
           "amount": 4
+        },
+        "trading_marketfee_4.1": {
+          "inGameName": "Trading marketfee 4.1",
+          "amount": 5
+        },
+        "trading_cooldown_5.0": {
+          "inGameName": "Trading cooldown 5.0",
+          "amount": 20
         }
       },
       "forge": {
@@ -5607,7 +6296,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_4.0": {
+          "inGameName": "Trading marketfee 4.0",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -5649,7 +6343,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_4.3": {
+          "inGameName": "Trading marketfee 4.3",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -5688,7 +6387,12 @@
           "amount": 12
         }
       },
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_3.0": {
+          "inGameName": "Trading marketfee 3.0",
+          "amount": 15
+        }
+      },
       "forge": {
         "Recipe01": {
           "inGameName": "Recipe01",
@@ -5723,7 +6427,12 @@
         }
       },
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_3.2": {
+          "inGameName": "Trading marketfee 3.2",
+          "amount": 10
+        }
+      },
       "forge": {
         "Recipe02": {
           "inGameName": "Recipe02",
@@ -5762,6 +6471,14 @@
         "aurum_passive_cap_4.2": {
           "inGameName": "Aurum passive cap 4.2",
           "amount": 5
+        },
+        "trading_tradefee_3.0": {
+          "inGameName": "Trading tradefee 3.0",
+          "amount": 3
+        },
+        "trading_tradefee_4.4": {
+          "inGameName": "Trading tradefee 4.4",
+          "amount": 1
         }
       },
       "forge": {}
@@ -5782,7 +6499,7 @@
     "stackSize": 6,
     "uses": {
       "printing": {
-        "Consumable_Grenade_05": {
+        "ShockGrenade_05": {
           "inGameName": "Assault Grenade",
           "amount": 4
         }
@@ -5811,6 +6528,14 @@
         "kmarks_passive_cap_4.3": {
           "inGameName": "Kmarks passive cap 4.3",
           "amount": 2
+        },
+        "trading_marketfee_4.0": {
+          "inGameName": "Trading marketfee 4.0",
+          "amount": 3
+        },
+        "trading_tradefee_4.4": {
+          "inGameName": "Trading tradefee 4.4",
+          "amount": 1
         }
       },
       "forge": {}
@@ -5833,7 +6558,12 @@
       "printing": {},
       "missions": {},
       "jobs": {},
-      "quarters": {},
+      "quarters": {
+        "trading_tradefee_4.4": {
+          "inGameName": "Trading tradefee 4.4",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -5879,6 +6609,10 @@
         "generate_aurum_3.4": {
           "inGameName": "Generate aurum 3.4",
           "amount": 18
+        },
+        "trading_tradefee_3.0": {
+          "inGameName": "Trading tradefee 3.0",
+          "amount": 6
         }
       },
       "forge": {
@@ -5992,6 +6726,10 @@
         "daily_crate_4.0": {
           "inGameName": "Daily crate 4.0",
           "amount": 5
+        },
+        "trading_marketfee_3.4": {
+          "inGameName": "Trading marketfee 3.4",
+          "amount": 7
         }
       },
       "forge": {
@@ -6025,7 +6763,7 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_Grenade_05": {
+        "ShockGrenade_05": {
           "inGameName": "Assault Grenade",
           "amount": 8
         }
@@ -6146,10 +6884,19 @@
           "amount": 1
         }
       },
-      "jobs": {},
+      "jobs": {
+        "NEW-Easy-ICA-Uplink-1": {
+          "inGameName": "Data Drive",
+          "amount": 2
+        }
+      },
       "quarters": {
         "generate_aurum_1.4": {
           "inGameName": "Generate aurum 1.4",
+          "amount": 1
+        },
+        "trading_marketfee_1.3": {
+          "inGameName": "Trading marketfee 1.3",
           "amount": 1
         }
       },
@@ -6195,6 +6942,10 @@
         "generate_kmarks_2.2": {
           "inGameName": "Generate kmarks 2.2",
           "amount": 1
+        },
+        "trading_tradefee_1.2": {
+          "inGameName": "Trading tradefee 1.2",
+          "amount": 1
         }
       },
       "forge": {}
@@ -6239,6 +6990,14 @@
         "aurum_passive_cap_4.0": {
           "inGameName": "Aurum passive cap 4.0",
           "amount": 1
+        },
+        "trading_items_3.1": {
+          "inGameName": "Trading items 3.1",
+          "amount": 1
+        },
+        "trading_cooldown_4.1": {
+          "inGameName": "Trading cooldown 4.1",
+          "amount": 2
         }
       },
       "forge": {}
@@ -6288,7 +7047,20 @@
           "amount": 3
         }
       },
-      "quarters": {},
+      "quarters": {
+        "trading_marketfee_3.1": {
+          "inGameName": "Trading marketfee 3.1",
+          "amount": 1
+        },
+        "trading_tradefee_2.0": {
+          "inGameName": "Trading tradefee 2.0",
+          "amount": 1
+        },
+        "trading_cooldown_4.1": {
+          "inGameName": "Trading cooldown 4.1",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -6431,7 +7203,7 @@
     "rarity": "Common",
     "weight": 5,
     "cost": [],
-    "sellValue": 0,
+    "sellValue": 1,
     "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
@@ -7641,8 +8413,8 @@
     }
   },
   "WP_E_SGun_Bullet_01_scrappy": {
-    "inGameName": "WP_E_SGun_Bullet_01_scrappy",
-    "description": "WP_E_SGun_Bullet_01_scrappy",
+    "inGameName": "Rusty B9 Trenchgun",
+    "description": "Rusty Pump-action shotgun, high-spread, short range. Just a bit damaged.",
     "type": "weapon",
     "rarity": "Common",
     "weight": 25,
@@ -7662,8 +8434,8 @@
     }
   },
   "WP_E_SMG_Bullet_01_scrappy": {
-    "inGameName": "WP_E_SMG_Bullet_01_scrappy",
-    "description": "WP_E_SMG_Bullet_01_scrappy",
+    "inGameName": "Rusty S-576 PDW",
+    "description": "A rusty used SMG with high rate of fire that still has some worth in close range engagements.",
     "type": "weapon",
     "rarity": "Common",
     "weight": 30,
@@ -7683,8 +8455,8 @@
     }
   },
   "WP_E_AR_Energy_01_scrappy": {
-    "inGameName": "WP_E_AR_Energy_01_scrappy",
-    "description": "WP_E_AR_Energy_01_scrappy",
+    "inGameName": "Rusty AR-55 Autorifle",
+    "description": "A rusty automatic rifle, doesn't seem to excel anymore.",
     "type": "weapon",
     "rarity": "Common",
     "weight": 35,
@@ -7954,7 +8726,7 @@
   },
   "WP_G_HVY_Beam_01": {
     "inGameName": "Zeus Beam",
-    "description": "Called Zeus for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your divine ire.",
+    "description": "Called \"Zeus\" for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your divine ire.",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -7983,8 +8755,8 @@
     }
   },
   "WP_E_Pistol_Bullet_01_scrappy": {
-    "inGameName": "WP_E_Pistol_Bullet_01_scrappy",
-    "description": "WP_E_Pistol_Bullet_01_scrappy",
+    "inGameName": "Rusty K-28",
+    "description": "An old rusty semi-automatic pistol. Its glory days are over.",
     "type": "weapon",
     "rarity": "Common",
     "weight": 20,
@@ -8012,19 +8784,19 @@
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 90
+        "SoftCurrency": 450
       },
       {
         "shop": "Osiris",
-        "SoftCurrency": 90
+        "SoftCurrency": 450
       },
       {
         "shop": "ICA",
-        "SoftCurrency": 90
+        "SoftCurrency": 450
       },
       {
         "shop": "QuickShop",
-        "SoftCurrency": 90
+        "SoftCurrency": 450
       }
     ],
     "sellValue": 27,
@@ -8218,6 +8990,18 @@
     "weight": 5,
     "cost": [
       {
+        "shop": "Korolev",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 450
+      },
+      {
         "shop": "QuickShop",
         "SoftCurrency": 450
       }
@@ -8296,7 +9080,7 @@
       "forge": {}
     }
   },
-  "Consumable_Grenade_02": {
+  "ShockGrenade_02": {
     "inGameName": "Light Grenade",
     "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
@@ -8324,7 +9108,7 @@
       "forge": {}
     }
   },
-  "Consumable_Grenade_03": {
+  "ShockGrenade_03": {
     "inGameName": "Standard Grenade",
     "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
@@ -8352,7 +9136,7 @@
       "forge": {}
     }
   },
-  "Consumable_Grenade_05": {
+  "ShockGrenade_05": {
     "inGameName": "Assault Grenade",
     "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
@@ -12046,6 +12830,1128 @@
     "tags": [
       "Weapon.Attachment"
     ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_D_Pistol_Bullet_02": {
+    "inGameName": "Flare Gun",
+    "description": "A compact two-shot grenade launcher built on the Bulldog platform.",
+    "type": "weapon",
+    "rarity": "Legendary",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 12341,
+    "factionRep": 123,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_Sniper_Energy_02": {
+    "inGameName": "Prototype Basilisk",
+    "description": "An early conversion of the Basilisk's energy core, chambered for a single massive round.",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 24000
+      }
+    ],
+    "sellValue": 10500,
+    "factionRep": 105,
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_D_HVY_Exotic_02": {
+    "inGameName": "Prototype Haze",
+    "description": "A weaker prototype of the HAZE launcher with reduced blast radius and ammo capacity.",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 14940,
+    "factionRep": 513,
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_AR_Needle_02": {
+    "inGameName": "Manticore MK2",
+    "description": "An upgraded MK2 variant of the Manticore.",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 35,
+    "cost": [],
+    "sellValue": 7143,
+    "factionRep": 71,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_SMG_Bullet_02": {
+    "inGameName": "S-576 PDW MK2",
+    "description": "An upgraded MK2 variant of the S-576 PDW.",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "WP_E_SMG_Bullet_01": 1,
+        "StormSurgeCrystal": 3,
+        "Biomass": 5,
+        "CompoundSheets": 3,
+        "MagneticFieldStabilizer": 2
+      }
+    ],
+    "sellValue": 2302,
+    "factionRep": 23,
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_AR_Energy_02": {
+    "inGameName": "AR-55 Autorifle MK2",
+    "description": "An upgraded MK2 variant of the AR-55 Autorifle.",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "WP_E_AR_Energy_01": 1,
+        "StormSurgeCrystal": 3,
+        "Biomass": 5,
+        "CompoundSheets": 3,
+        "MagneticFieldStabilizer": 2
+      }
+    ],
+    "sellValue": 2438,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_BR_Bullet_02": {
+    "inGameName": "KBR Longshot MKII",
+    "description": "A KBR Longshot chambered for explosive-tip rounds. Hits crack with a missile-light splash.",
+    "type": "weapon",
+    "rarity": "Exotic",
+    "weight": 50,
+    "cost": [],
+    "sellValue": 48261,
+    "factionRep": 483,
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Pistol_Bullet_02": {
+    "inGameName": "Prototype Hammer",
+    "description": "A Korolev prototype energy pistol. Minimal recoil and rapid follow-up shots trade stopping power for control.",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 17000
+      }
+    ],
+    "sellValue": 4353,
+    "factionRep": 44,
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Sniper_Gauss_02": {
+    "inGameName": "Prototype Karma-1",
+    "description": "A prototype variant of the KARMA-1.",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 27291,
+    "factionRep": 273,
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_Sniper_Bullet_02": {
+    "inGameName": "C-32 Bolt Action MK2",
+    "description": "An upgraded MK2 variant of the C-32 Bolt Action.",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "WP_E_Sniper_Bullet_01": 1,
+        "StormSurgeCrystal": 3,
+        "Biomass": 5,
+        "CompoundSheets": 3,
+        "MagneticFieldStabilizer": 2
+      }
+    ],
+    "sellValue": 4242,
+    "factionRep": 42,
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_Pistol_Bullet_02": {
+    "inGameName": "K-28 MK2",
+    "description": "A standard semi-automatic pistol. It's an effective sidearm for any Prospector.",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "WP_E_Pistol_Bullet_01": 1,
+        "StormSurgeCrystal": 3,
+        "Biomass": 5,
+        "CompoundSheets": 3,
+        "MagneticFieldStabilizer": 2
+      }
+    ],
+    "sellValue": 300,
+    "factionRep": 2,
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_SGun_Bullet_02": {
+    "inGameName": "B9 Trenchgun MK2",
+    "description": "Pump-action shotgun, high-spread, short range. Yep, it's a shotgun, all right.",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 25,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "WP_E_SGun_Bullet_01": 1,
+        "StormSurgeCrystal": 3,
+        "Biomass": 5,
+        "CompoundSheets": 3,
+        "MagneticFieldStabilizer": 2
+      }
+    ],
+    "sellValue": 1990,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_D_AR_Bullet_02": {
+    "inGameName": "Prototype Advocate",
+    "description": "A prototype Advocate chambered for five-round auto-bursts. Tuned hard against fauna — soft against Prospectors.",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 24000
+      }
+    ],
+    "sellValue": 1200,
+    "factionRep": 228,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_AR_Energy_02": {
+    "inGameName": "Phasic Lancer MKII",
+    "description": "An overcharged Phasic Lancer core that vents its capacitor as a single wide burst of energy shards.",
+    "type": "weapon",
+    "rarity": "Exotic",
+    "weight": 35,
+    "cost": [],
+    "sellValue": 34172,
+    "factionRep": 342,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_HVY_Shell_02": {
+    "inGameName": "Prototype Karla",
+    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 14940,
+    "factionRep": 1178,
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_AR_Bullet_02": {
+    "inGameName": "Prototype Kor",
+    "description": "A Korolev experimental LMG conversion of the KOR-47. Shard-fed, belt-sustained, still wearing the rifle's bones.",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 17000
+      }
+    ],
+    "sellValue": 12341,
+    "factionRep": 123,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_D_SGun_Shard_02": {
+    "inGameName": "Shattergun MK2",
+    "description": "An upgraded MK2 variant with improved combat performance.",
+    "type": "weapon",
+    "rarity": "Exotic",
+    "weight": 25,
+    "cost": [],
+    "sellValue": 1800,
+    "factionRep": 161,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_AR_Beam_02": {
+    "inGameName": "Gorgon MK2",
+    "description": "An Osiris beam rifle MK2 with an oversized cell and efficient energy use. Charge up, then sustain fire while held until the cell is empty.",
+    "type": "weapon",
+    "rarity": "Legendary",
+    "weight": 35,
+    "cost": [],
+    "sellValue": 34858,
+    "factionRep": 348,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Polonium": {
+    "inGameName": "Polonium",
+    "description": "Valuable glowy mineral that can only be mined during an active storm on Fortuna III",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 500,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "StormSurgeCrystal": {
+    "inGameName": "Storm Surge Crystal",
+    "description": "Malformed veltecite, created when the Cycle emits a localized spike and excites latent veltecite veins underground into growing at an accelerated rate. It's definitely health hazard, but it's also worth a lot...",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 2000,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Biomass": {
+    "inGameName": "Mutated Biomass",
+    "description": "Fortuna III's hostile creatures are already mutated versions of smaller and less aggressive ancestors, but Cycle Storms push forward rarer latent mutations. Researchers buy this stuff, as do some \"fancy\" restaurants.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 250,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "UnindexedLetium": {
+    "inGameName": "Unindexed Letium",
+    "description": "Letium with a density curve that does n░t match any c▓talogued sample. Assay confirms high-yield scrap — no further flag raised. ⟨░▒▓⟩ Margin note: κρτφ · Ѫβε · ▓█§",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 46132,
+    "factionRep": 460,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "UncataloguedWeatherCrystal": {
+    "inGameName": "Uncatalogued Weather Crystal",
+    "description": "H░▒ds a storm th◆t does n▓t match known Fortuna III weather systems. Humidity readings are wrong — denser, greener. ⟨░░▒▓█⟩ Margin note: Ѫαβγ · Ωκρτφ · §†░░▒▓",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 100000,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "IsolateSampleClassified": {
+    "inGameName": "Anomalous Biomass",
+    "description": "Rare anomalous tissue used in advanced equipment modifications.",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 200000,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "AnomalousHotFragment": {
+    "inGameName": "Anomalous Hot Fragment",
+    "description": "Isot░▒pe signature not in the frontier registry. Containment tag half-melt▓d. ⟨◆ΔΩ⟩ Margin note: τθλμ · Ѫκρ · ◆ΔΩ█",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 300000,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "QuestItem_AlphaWardenBait": {
+    "inGameName": "Alpha Crusher Bait",
+    "description": "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds.",
+    "type": "questItem",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 20,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "OTecStim_Adrenaline": {
+    "inGameName": "Adrenaline Shot",
+    "description": "A stim that lowers the consumption of stamina for 2 minutes.",
+    "type": "consumable",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "Biomass": 3,
+        "WaterPlant": 2
+      }
+    ],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_Shield_01": {
+    "inGameName": "Shield charger",
+    "description": "A device that replenishes part of the missing shield.",
+    "type": "consumable",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_Stamina_01": {
+    "inGameName": "Stamina stim",
+    "description": "Reduces stamina consumption for 2 minutes. ",
+    "type": "consumable",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "Biomass": 3,
+        "AlienFruit": 2
+      }
+    ],
+    "sellValue": 683,
+    "factionRep": 7,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_RoadFlare": {
+    "inGameName": "Road Flare",
+    "description": "Illuminates Areas, especially useful in the dark",
+    "type": "consumable",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 4000
+      }
+    ],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_LaserTrap": {
+    "inGameName": "Laser Trap",
+    "description": "a deployable trip wire, placeable between any 2 objects close to each other",
+    "type": "consumable",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 456,
+    "factionRep": 5,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "ShockGrenade_01": {
+    "inGameName": "Weak Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
+    "type": "consumable",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 50,
+    "factionRep": 0,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "ShockGrenade_04": {
+    "inGameName": "Heavy Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
+    "type": "consumable",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 1709,
+    "factionRep": 17,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_HazeGrenade_01": {
+    "inGameName": "Haze Grenade",
+    "description": "Releases a damaging Haze bubble after a short delay.",
+    "type": "consumable",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "StormSurgeCrystal": 5,
+        "Gyroscope": 1
+      }
+    ],
+    "sellValue": 152,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_DomeGrenade_01": {
+    "inGameName": "Dome Grenade",
+    "description": "Deploys a protective dome on impact.",
+    "type": "consumable",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "StormSurgeCrystal": 1,
+        "PortableLabEquipmentBox": 1
+      }
+    ],
+    "sellValue": 152,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_Mule_01": {
+    "inGameName": "Mule stim",
+    "description": "Reduces the weight of all items in your backpack by 25% for 120 seconds. Increases stamina consumption by 20% while active.",
+    "type": "consumable",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "Biomass": 5,
+        "AI_WeremoleMeat": 1
+      }
+    ],
+    "sellValue": 683,
+    "factionRep": 7,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_HoverbikeHelmet_01": {
+    "inGameName": "Hoverbike Helmet",
+    "description": "Deploys a hoverbike for one use. Consumed when the hoverbike is successfully spawned.",
+    "type": "consumable",
+    "rarity": "Legendary",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 100,
+    "factionRep": 5,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Consumable_SYG_01": {
+    "inGameName": "S.Y.G. Stim",
+    "description": "Reduces incoming damage by 50% for 60 seconds. Reduces movement speed by 50% while active.",
+    "type": "consumable",
+    "rarity": "Legendary",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "Biomass": 5,
+        "AI_CrusherSkin": 1
+      }
+    ],
+    "sellValue": 683,
+    "factionRep": 7,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_Tactical_04": {
+    "inGameName": "Epic Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "DesertPlant": 2,
+        "HardenedBoneAlloy": 3
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_Tactical_05": {
+    "inGameName": "Exotic Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "TentaclePlant": 2,
+        "AI_CrusherSkin": 3
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_Restoration_03": {
+    "inGameName": "Epic Restoration Shield",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "RadioactiveBrightcapMushroom": 5,
+        "HardenedBoneAlloy": 3
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_Restoration_04": {
+    "inGameName": "Exotic Restoration Shield",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "PureFocusCrystal": 1,
+        "AI_CrusherSkin": 3,
+        "RadioactiveBrightcapMushroom": 5
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Tactical_04": {
+    "inGameName": "Epic Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "Datapad": 1
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Tactical_05": {
+    "inGameName": "Exotic Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 3,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Restoration_03": {
+    "inGameName": "Epic Restoration Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Restoration_04": {
+    "inGameName": "Exotic Restoration Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 2,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
+    "tags": [],
     "stackSize": 1,
     "uses": {
       "printing": {},

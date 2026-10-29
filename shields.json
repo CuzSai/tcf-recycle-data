@@ -22,7 +22,7 @@
     "description": "Protects the body of its wearer.",
     "rarity": "Common",
     "weight": 40,
-    "armorAmount": 10,
+    "armorAmount": 13,
     "durability": 500,
     "sellValue": 135,
     "factionRep": 1,
@@ -57,7 +57,7 @@
     "description": "Protects the body of its wearer.",
     "rarity": "Uncommon",
     "weight": 40,
-    "armorAmount": 15,
+    "armorAmount": 17,
     "durability": 600,
     "sellValue": 608,
     "factionRep": 6,
@@ -82,7 +82,7 @@
     "description": "Protects the body of its wearer.",
     "rarity": "Rare",
     "weight": 40,
-    "armorAmount": 20,
+    "armorAmount": 22,
     "durability": 700,
     "sellValue": 4556,
     "factionRep": 46,
@@ -108,7 +108,7 @@
     "description": "Protects the body of its wearer.",
     "rarity": "Epic",
     "weight": 40,
-    "armorAmount": 30,
+    "armorAmount": 28,
     "durability": 800,
     "sellValue": 11618,
     "factionRep": 116,
@@ -160,7 +160,7 @@
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Common",
     "weight": 40,
-    "armorAmount": 10,
+    "armorAmount": 13,
     "durability": 500,
     "sellValue": 203,
     "factionRep": 2,
@@ -197,7 +197,7 @@
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Uncommon",
     "weight": 40,
-    "armorAmount": 15,
+    "armorAmount": 17,
     "durability": 600,
     "sellValue": 608,
     "factionRep": 6,
@@ -225,7 +225,7 @@
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Rare",
     "weight": 40,
-    "armorAmount": 20,
+    "armorAmount": 22,
     "durability": 700,
     "sellValue": 4556,
     "factionRep": 46,
@@ -253,7 +253,7 @@
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
     "weight": 40,
-    "armorAmount": 15,
+    "armorAmount": 17,
     "durability": 600,
     "sellValue": 608,
     "factionRep": 6,
@@ -281,7 +281,7 @@
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
     "weight": 40,
-    "armorAmount": 20,
+    "armorAmount": 22,
     "durability": 700,
     "sellValue": 4556,
     "factionRep": 46,
@@ -309,7 +309,7 @@
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
     "weight": 40,
-    "armorAmount": 30,
+    "armorAmount": 28,
     "durability": 800,
     "sellValue": 12985,
     "factionRep": 130,
@@ -370,6 +370,119 @@
       {
         "shop": "None",
         "SoftCurrency": 128000
+      }
+    ]
+  },
+  "Shield_Tactical_04": {
+    "inGameName": "Epic Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "rarity": "Epic",
+    "weight": 40,
+    "armorAmount": 28,
+    "durability": 800,
+    "sellValue": 11618,
+    "factionRep": 116,
+    "repair": {
+      "baseCost": 1560,
+      "costModifierBroken": 3916,
+      "maxPrice": 7800,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_MaxStamina_05"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "DesertPlant": 2,
+        "HardenedBoneAlloy": 3
+      }
+    ]
+  },
+  "Shield_Tactical_05": {
+    "inGameName": "Exotic Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "rarity": "Exotic",
+    "weight": 40,
+    "armorAmount": 35,
+    "durability": 900,
+    "sellValue": 23579,
+    "factionRep": 236,
+    "repair": {
+      "baseCost": 1975,
+      "costModifierBroken": 4953,
+      "maxPrice": 9875,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_MaxStamina_06"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "TentaclePlant": 2,
+        "AI_CrusherSkin": 3
+      }
+    ]
+  },
+  "Shield_Restoration_03": {
+    "inGameName": "Epic Restoration Shield",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Epic",
+    "weight": 40,
+    "armorAmount": 28,
+    "durability": 800,
+    "sellValue": 11618,
+    "factionRep": 116,
+    "repair": {
+      "baseCost": 1560,
+      "costModifierBroken": 3916,
+      "maxPrice": 7800,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_HealthRegenerationRate_03"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "RadioactiveBrightcapMushroom": 5,
+        "HardenedBoneAlloy": 3
+      }
+    ]
+  },
+  "Shield_Restoration_04": {
+    "inGameName": "Exotic Restoration Shield",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Exotic",
+    "weight": 40,
+    "armorAmount": 35,
+    "durability": 900,
+    "sellValue": 23579,
+    "factionRep": 236,
+    "repair": {
+      "baseCost": 1975,
+      "costModifierBroken": 4953,
+      "maxPrice": 9875,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_HealthRegenerationRate_04"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "PureFocusCrystal": 1,
+        "AI_CrusherSkin": 3,
+        "RadioactiveBrightcapMushroom": 5
       }
     ]
   }

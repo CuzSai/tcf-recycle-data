@@ -4619,6 +4619,246 @@
     "UncommonModKit": {
       "name": "Uncommon Mod Kit",
       "description": "Uncommon mod kit description FILL IN."
+    },
+    "UncommonVelticite": {
+      "lore": "",
+      "name": "Cloudy Veltecite",
+      "description": "Shards of Cloudy Veltecite are often used for energy storage and generation. Korolev are always looking for any that prospectors can mine."
+    },
+    "VelteciteHeart": {
+      "lore": "",
+      "name": "Veltecite Heart",
+      "description": "The heart of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted."
+    },
+    "BrightcapMushroom": {
+      "lore": "",
+      "name": "Brightcap Mushroom",
+      "description": "Good for selling and desired by Osiris for their rare properties. Also tastes good, if prepared properly."
+    },
+    "Gyroscope": {
+      "lore": "",
+      "name": "Gyroscope",
+      "description": "Helps keep things pointing where they're supposed to be pointing even in the roughest conditions, making it quite useful for printing some weapon components."
+    },
+    "CombatCPU_Blue": {
+      "lore": "",
+      "name": "Zero Systems CPU",
+      "description": "Made for crunching through large datasets, used in several devices that require large amounts of simple calculations."
+    },
+    "CombatCPU_red": {
+      "lore": "",
+      "name": "Master Unit CPU",
+      "description": "An advanced CPU, ideal for the running of adaptive AI systems or the manipulation of complex energy fields."
+    },
+    "MiniatureReactor": {
+      "lore": "",
+      "name": "Miniature Reactor",
+      "description": "Useful for printing equipment with high power requirements.\r\nDO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B."
+    },
+    "MagneticFieldStabilizer": {
+      "lore": "",
+      "name": "Magnetic Field Stabilizer",
+      "description": "A component necessary for certain weapons with high power usage."
+    },
+    "Datapad": {
+      "lore": "",
+      "name": "Interactive Screen",
+      "description": "Interactive Screens were common among civilians on Fortuna III, used for all sorts of purposes. Cached data and basic components give them some selling value."
+    },
+    "RadioactiveBrightcapMushroom": {
+      "lore": "",
+      "name": "Glowy Brightcap Mushroom",
+      "description": "A rare glowy mushroom that can only be harvested during the storm on Fortuna. Highly coveted by Osiris."
+    },
+    "BlueWood": {
+      "lore": "",
+      "name": "Azure Tree Bark",
+      "description": "Azure Trees are found sprinkled around the less shaded areas of Fortuna III, with their bark coveted for artisanal goods."
+    },
+    "AlienFruit": {
+      "lore": "",
+      "name": "Indigenous Fruit",
+      "description": "Tastes delicious, and can be processed to gain some useful chemicals."
+    },
+    "CopperWire": {
+      "lore": "",
+      "name": "Copper Wire",
+      "description": "Still the best bang for the buck for electric cables, makes for a good and cheap electric conductor."
+    },
+    "SmartMesh": {
+      "lore": "",
+      "name": "Smart Mesh",
+      "description": "Adaptable material, used for printing various items.\r\n\r\nAlso a fun art tool!"
+    },
+    "CircuitBoard": {
+      "lore": "",
+      "name": "Circuit Board",
+      "description": "An old circuit board, its components can be salvaged and repurposed to build new items.\r\n\r\nAnd now you can put e-waste management on your resume."
+    },
+    "AI_StriderHead": {
+      "lore": "",
+      "name": "Strider Head",
+      "description": "The torn off head of a dead Strider.\r\n\r\nCareful, it can still bite!"
+    },
+    "AI_RattlerHead": {
+      "lore": "",
+      "name": "Rattler Head",
+      "description": "The torn off head of a dead Rattler.\r\n\r\nCorrosive drool everywhere, handle with gloves."
+    },
+    "AI_WeremoleHead": {
+      "lore": "",
+      "name": "Marauder Head",
+      "description": "The torn off head of a dead Marauder.\r\n\r\nThe eyes still follow you around. Creepy."
+    },
+    "AI_CrusherHead": {
+      "lore": "",
+      "name": "Crusher Head",
+      "description": "The torn off head of a dead Crusher.\r\n\r\nIt's even uglier up close... Still, a fine trophy!"
+    },
+    "AI_StriderMeat": {
+      "lore": "",
+      "name": "Strider Flesh",
+      "description": "A chunk of Strider flesh. Presumably of a dead one.\r\n\r\nYou know, if you cook it properly it's actually pretty good."
+    },
+    "AI_RattlerEyes": {
+      "lore": "",
+      "name": "Rattler Eyes",
+      "description": "The eyes of a dead Rattler.\r\n\r\nWell, hopefully it was dead, anyway..."
+    },
+    "AI_WeremoleMeat": {
+      "lore": "",
+      "name": "Marauder Flesh",
+      "description": "A chunk of Marauder flesh.\r\n\r\nIt moves if you poke it."
+    },
+    "AI_CrusherMeat": {
+      "lore": "",
+      "name": "Crusher Flesh",
+      "description": "A chunk of Crusher flesh.\r\n\r\nEven its meat is hard as bone."
+    },
+    "AI_RattlerSkin": {
+      "lore": "",
+      "name": "Rattler Skin",
+      "description": "Taken off a skinned Rattler.\r\n\r\nFashionable! Just don't think about where it came from."
+    },
+    "AI_CrusherSkin": {
+      "lore": "",
+      "name": "Crusher Hide",
+      "description": "Taken off a skinned Crusher.\r\n\r\n(read: hacked repeatedly until something fell off)"
+    },
+    "KorolevScrip": {
+      "lore": "",
+      "name": "Korolev Scrip",
+      "description": "Rewarded by Korolev, required for upgrades to your Quarters' Stash and Safe Pockets."
+    },
+    "OsirisScrip": {
+      "lore": "",
+      "name": "Osiris Scrip",
+      "description": "Rewarded by Osiris, required for upgrades to your Quarters' K-Mark and Aurum generators."
+    },
+    "ICAScrip": {
+      "lore": "",
+      "name": "ICA Scrip",
+      "description": "Rewarded by the ICA, required for upgrades to your Quarters' Supply Crate Generator and Gear Printer."
+    },
+    "Letium": {
+      "lore": "",
+      "name": "Letium Clot",
+      "description": "Solidified mass of Letium, rare and valuable."
+    },
+    "AI_StriderMeat_03": {
+      "lore": "",
+      "name": "Heavy Strider Flesh",
+      "description": "A chunk of flesh from a Heavy Strider.\r\n\r\nTougher than normal Strider meat, it barely bleeds."
+    },
+    "AI_RattlerEyes_02": {
+      "lore": "",
+      "name": "Mature Rattler Eyes",
+      "description": "The eyes of a dead Mature Rattler.\r\n\r\nAge only improved the thing's sight..."
+    },
+    "AI_WeremoleMeat_02": {
+      "lore": "",
+      "name": "Savage Marauder Flesh",
+      "description": "A chunk of Savage Marauder flesh.\r\n\r\nBurns if you touch it without gloves."
+    },
+    "AI_StriderHead_03": {
+      "lore": "",
+      "name": "Heavy Strider Head",
+      "description": "The torn off head of a dead Heavy Strider.\r\n\r\nFar too ugly to mount on a wall."
+    },
+    "AI_RattlerHead_02": {
+      "lore": "",
+      "name": "Mature Rattler Head",
+      "description": "The torn off head of a dead Mature Rattler.\r\n\r\nThese things do NOT age gracefully..."
+    },
+    "AI_WeremoleHead_02": {
+      "lore": "",
+      "name": "Savage Marauder Head",
+      "description": "The torn off head of a dead Savage Marauder.\r\n\r\nIt's still blinking. Menacingly."
+    },
+    "TentaclePlant": {
+      "lore": "",
+      "name": "Spine Briar",
+      "description": "A unique plant so far only found on Tharis Island. Nothing about it feels right..."
+    },
+    "Alien_Scrap": {
+      "lore": "",
+      "name": "Progenitor Composite",
+      "description": "A clearly alien material, the Progenitors built their monuments on Fortuna III with this. Could possibly be used to build other things, as well."
+    },
+    "UnindexedLetium": {
+      "lore": "",
+      "name": "Unindexed Letium",
+      "description": "Letium with a density curve that does n░t match any c▓talogued sample. Assay confirms high-yield scrap — no further flag raised. ⟨░▒▓⟩ Margin note: κρτφ · Ѫβε · ▓█§"
+    },
+    "UncataloguedWeatherCrystal": {
+      "lore": "",
+      "name": "Uncatalogued Weather Crystal",
+      "description": "H░▒ds a storm th◆t does n▓t match known Fortuna III weather systems. Humidity readings are wrong — denser, greener. ⟨░░▒▓█⟩ Margin note: Ѫαβγ · Ωκρτφ · §†░░▒▓"
+    },
+    "IsolateSampleClassified": {
+      "lore": "",
+      "name": "Anomalous Biomass",
+      "description": "Rare anomalous tissue used in advanced equipment modifications."
+    },
+    "AnomalousHotFragment": {
+      "lore": "",
+      "name": "Anomalous Hot Fragment",
+      "description": "Isot░▒pe signature not in the frontier registry. Containment tag half-melt▓d. ⟨◆ΔΩ⟩ Margin note: τθλμ · Ѫκρ · ◆ΔΩ█"
+    },
+    "HardDrive_common": {
+      "lore": "",
+      "name": "Data Drive Tier 1",
+      "description": "A data drive. Data can be improved at an Uplink, or the drive exchanged for K-Marks."
+    },
+    "HardDrive_uncommon": {
+      "lore": "",
+      "name": "Data Drive Tier 2",
+      "description": "A data drive with some interesting information. Data can be improved at an Uplink, or the drive exchanged for K-Marks."
+    },
+    "HardDrive_rare": {
+      "lore": "",
+      "name": "Data Drive Tier 3",
+      "description": "A data drive with rare information. Data can be improved at an Uplink, or the drive exchanged for K-Marks."
+    },
+    "HardDrive_epic": {
+      "lore": "",
+      "name": "Data Drive Tier 4",
+      "description": "A data drive with valuable information. Data can be improved at an Uplink, or the drive exchanged for K-Marks."
+    },
+    "HardDrive_legendary": {
+      "lore": "",
+      "name": "Data Drive Tier 5",
+      "description": "A data drive with highly valuable and unique information. Can be exchanged for K-Marks."
+    },
+    "Data_DigSite": {
+      "lore": "",
+      "name": "Dig Site Data Drive",
+      "description": "A data drive carrying information on the Bright Sands Dig Site."
+    },
+    "QuestItem_OrbitalCanonTargetBeacon": {
+      "lore": "",
+      "name": "Orbital Cannon Beacon",
+      "description": "Used for opening the Elite Crusher Caverns, highly charged Osiris laser gets fired at location of this beacon."
     }
   },
   "MissionLines": {

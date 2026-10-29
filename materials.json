@@ -1637,7 +1637,7 @@
     ],
     "weight": 5,
     "stackSize": 1,
-    "sellValue": 0,
+    "sellValue": 1,
     "factionRep": 0,
     "questItem": true,
     "cost": []
@@ -2030,6 +2030,118 @@
     "weight": 8,
     "stackSize": 1,
     "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "Polonium": {
+    "inGameName": "Polonium",
+    "description": "Valuable glowy mineral that can only be mined during an active storm on Fortuna III",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 3,
+    "stackSize": 10,
+    "sellValue": 500,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "StormSurgeCrystal": {
+    "inGameName": "Storm Surge Crystal",
+    "description": "Malformed veltecite, created when the Cycle emits a localized spike and excites latent veltecite veins underground into growing at an accelerated rate. It's definitely health hazard, but it's also worth a lot...",
+    "rarity": "Rare",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 2000,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "Biomass": {
+    "inGameName": "Mutated Biomass",
+    "description": "Fortuna III's hostile creatures are already mutated versions of smaller and less aggressive ancestors, but Cycle Storms push forward rarer latent mutations. Researchers buy this stuff, as do some \"fancy\" restaurants.",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 10,
+    "stackSize": 10,
+    "sellValue": 250,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "UnindexedLetium": {
+    "inGameName": "Unindexed Letium",
+    "description": "Letium with a density curve that does n░t match any c▓talogued sample. Assay confirms high-yield scrap — no further flag raised. ⟨░▒▓⟩ Margin note: κρτφ · Ѫβε · ▓█§",
+    "rarity": "Exotic",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 3,
+    "stackSize": 10,
+    "sellValue": 46132,
+    "factionRep": 460,
+    "questItem": false,
+    "cost": []
+  },
+  "UncataloguedWeatherCrystal": {
+    "inGameName": "Uncatalogued Weather Crystal",
+    "description": "H░▒ds a storm th◆t does n▓t match known Fortuna III weather systems. Humidity readings are wrong — denser, greener. ⟨░░▒▓█⟩ Margin note: Ѫαβγ · Ωκρτφ · §†░░▒▓",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 5,
+    "stackSize": 3,
+    "sellValue": 100000,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "IsolateSampleClassified": {
+    "inGameName": "Anomalous Biomass",
+    "description": "Rare anomalous tissue used in advanced equipment modifications.",
+    "rarity": "Exotic",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 10,
+    "stackSize": 1,
+    "sellValue": 200000,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "AnomalousHotFragment": {
+    "inGameName": "Anomalous Hot Fragment",
+    "description": "Isot░▒pe signature not in the frontier registry. Containment tag half-melt▓d. ⟨◆ΔΩ⟩ Margin note: τθλμ · Ѫκρ · ◆ΔΩ█",
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 3,
+    "stackSize": 1,
+    "sellValue": 300000,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "QuestItem_AlphaWardenBait": {
+    "inGameName": "Alpha Crusher Bait",
+    "description": "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds.",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "weight": 5,
+    "stackSize": 1,
+    "sellValue": 20,
     "factionRep": 0,
     "questItem": true,
     "cost": []

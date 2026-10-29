@@ -4,7 +4,7 @@
     "description": "Protects the head of its wearer.",
     "rarity": "Common",
     "weight": 20,
-    "armorAmount": 10,
+    "armorAmount": 13,
     "durability": 500,
     "sellValue": 113,
     "factionRep": 1,
@@ -39,7 +39,7 @@
     "description": "Protects the head of its wearer.",
     "rarity": "Uncommon",
     "weight": 20,
-    "armorAmount": 15,
+    "armorAmount": 17,
     "durability": 600,
     "sellValue": 506,
     "factionRep": 5,
@@ -64,7 +64,7 @@
     "description": "Protects the head of its wearer.",
     "rarity": "Rare",
     "weight": 20,
-    "armorAmount": 20,
+    "armorAmount": 22,
     "durability": 700,
     "sellValue": 2278,
     "factionRep": 23,
@@ -89,7 +89,7 @@
     "description": "Protects the head of its wearer.",
     "rarity": "Epic",
     "weight": 20,
-    "armorAmount": 30,
+    "armorAmount": 28,
     "durability": 800,
     "sellValue": 5126,
     "factionRep": 51,
@@ -140,7 +140,7 @@
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Common",
     "weight": 20,
-    "armorAmount": 10,
+    "armorAmount": 13,
     "durability": 500,
     "sellValue": 169,
     "factionRep": 2,
@@ -177,7 +177,7 @@
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Uncommon",
     "weight": 20,
-    "armorAmount": 15,
+    "armorAmount": 17,
     "durability": 600,
     "sellValue": 506,
     "factionRep": 5,
@@ -205,7 +205,7 @@
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Rare",
     "weight": 20,
-    "armorAmount": 20,
+    "armorAmount": 22,
     "durability": 700,
     "sellValue": 2278,
     "factionRep": 23,
@@ -233,7 +233,7 @@
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
     "weight": 20,
-    "armorAmount": 15,
+    "armorAmount": 17,
     "durability": 600,
     "sellValue": 506,
     "factionRep": 5,
@@ -261,7 +261,7 @@
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
     "weight": 20,
-    "armorAmount": 20,
+    "armorAmount": 22,
     "durability": 700,
     "sellValue": 2278,
     "factionRep": 23,
@@ -317,7 +317,7 @@
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
     "weight": 20,
-    "armorAmount": 30,
+    "armorAmount": 28,
     "durability": 800,
     "sellValue": 6265,
     "factionRep": 63,
@@ -378,6 +378,119 @@
       {
         "shop": "None",
         "SoftCurrency": 85000
+      }
+    ]
+  },
+  "Helmet_Tactical_04": {
+    "inGameName": "Epic Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "rarity": "Epic",
+    "weight": 20,
+    "armorAmount": 28,
+    "durability": 800,
+    "sellValue": 5126,
+    "factionRep": 51,
+    "repair": {
+      "baseCost": 680,
+      "costModifierBroken": 1695,
+      "maxPrice": 3400,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_MaxStamina_03"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "Datapad": 1
+      }
+    ]
+  },
+  "Helmet_Tactical_05": {
+    "inGameName": "Exotic Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "rarity": "Exotic",
+    "weight": 20,
+    "armorAmount": 35,
+    "durability": 900,
+    "sellValue": 10252,
+    "factionRep": 103,
+    "repair": {
+      "baseCost": 850,
+      "costModifierBroken": 2119,
+      "maxPrice": 4250,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_MaxStamina_04"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 3,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1
+      }
+    ]
+  },
+  "Helmet_Restoration_03": {
+    "inGameName": "Epic Restoration Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Epic",
+    "weight": 20,
+    "armorAmount": 28,
+    "durability": 800,
+    "sellValue": 5126,
+    "factionRep": 51,
+    "repair": {
+      "baseCost": 680,
+      "costModifierBroken": 1695,
+      "maxPrice": 3400,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_HealthRegenerationRate_02"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ]
+  },
+  "Helmet_Restoration_04": {
+    "inGameName": "Exotic Restoration Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Exotic",
+    "weight": 20,
+    "armorAmount": 35,
+    "durability": 900,
+    "sellValue": 10252,
+    "factionRep": 103,
+    "repair": {
+      "baseCost": 850,
+      "costModifierBroken": 2119,
+      "maxPrice": 4250,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      "Perk_HealthRegenerationRate_03"
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 2,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1,
+        "RadioactiveBrightcapMushroom": 3
       }
     ]
   }
