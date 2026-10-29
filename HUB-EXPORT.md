@@ -61,6 +61,12 @@ run. Running the import twice in a row reports 0 changes the second time.
 | forgePerks.json, forgeRecipes.json, forgeSettings.json | forge perks (new perks, host materials, roll ranges), ingot recipes, forge settings. Perks with no host material (night vision) are skipped: they don't come from the forge. Amount per roll follows the material's rarity (`rarityAmount`). |
 | items.json | rebuilt from all of the above, including the `uses` index |
 
+`META.json` gets a new `GAME_DATA_VERSION` on every import that changed
+something. The tools compare it on each page load and drop their cached data
+when it changed, so users see an update on their next visit. **After a hand
+edit to the data, change `GAME_DATA_VERSION` yourself**, or visitors keep the
+old files for a while.
+
 `missions.json` and `attachments.json` are only compared: anything new is
 listed as `NOT ADDED` and has to be added by hand.
 

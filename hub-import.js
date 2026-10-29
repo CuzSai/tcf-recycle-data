@@ -488,5 +488,14 @@ write("forgeRecipes.json", forgeRecipes);
 write("forgeSettings.json", forgeSettings);
 write("items.json", items);
 
+// The tools drop their cached data when META.json changes, so bump it whenever
+// something was written. Hand edits to the data need the same bump.
+if (changes.length) {
+    const meta = read("META.json");
+    meta.GAME_DATA_VERSION = `hub ${String(bundle.fetchedAt || new Date().toISOString()).slice(0, 16)}`;
+    if (!DRY) fs.writeFileSync(path.join(DIR, "META.json"), JSON.stringify(meta, null, 4).replace(/\n/g, "\r\n"));
+    note(`META.json: GAME_DATA_VERSION -> ${meta.GAME_DATA_VERSION}`);
+}
+
 console.log(changes.join("\n"));
 console.log(`\n${changes.length} changes${DRY ? " (dry run, nothing written)" : ". Now run: node sync.js"}`);
