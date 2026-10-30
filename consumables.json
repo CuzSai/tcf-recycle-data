@@ -715,7 +715,8 @@
         "StormSurgeCrystal": 5,
         "Gyroscope": 1
       }
-    ]
+    ],
+    "anomalousOnly": true
   },
   "Consumable_DomeGrenade_01": {
     "inGameName": "Dome Grenade",
@@ -793,6 +794,7 @@
         "Biomass": 5,
         "AI_CrusherSkin": 1
       }
-    ]
+    ],
+    "anomalousOnly": true
   }
 }

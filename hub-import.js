@@ -100,6 +100,25 @@ function merge(target, fields, label) {
     return target;
 }
 
+// Items the game keeps out of normal lobbies (patch notes, Season 2). Not in the
+// game data, so kept by hand here; the tools read the "anomalousOnly" flag.
+const ANOMALOUS_ONLY = [
+    "WP_E_Pistol_Bullet_02", "WP_E_SMG_Bullet_02", "WP_E_AR_Energy_02", "WP_E_Sniper_Bullet_02", "WP_E_SGun_Bullet_02",
+    "Consumable_HazeGrenade_01", "Consumable_SYG_01",
+];
+function flagAnomalous(data, label) {
+    for (const [key, entry] of Object.entries(data)) {
+        const want = ANOMALOUS_ONLY.includes(key);
+        if (want && !entry.anomalousOnly) {
+            entry.anomalousOnly = true;
+            note(`${label} ${key}: anomalous lobbies only`);
+        } else if (!want && entry.anomalousOnly) {
+            delete entry.anomalousOnly;
+            note(`${label} ${key}: no longer anomalous only`);
+        }
+    }
+}
+
 // ---------------------------------------------------------------- weapons
 const weapons = read("weapons.json");
 const tuning = Object.fromEntries(DT.PRO_Tuning.map((t) => [t.Name, t]));
@@ -176,6 +195,8 @@ for (const w of DT.PRO_Weapons) {
         note(`NEW weapon ${w.Name} (${fields.inGameName}, ${fields.rarity}${entry.unreleased ? ", unreleased" : ""})`);
     }
 }
+
+flagAnomalous(weapons, "weapon");
 
 // ------------------------------------------------------- shields, helmets
 function armour(file, table) {
@@ -389,6 +410,7 @@ for (const r of DT.PRO_Abilities) {
         note(`NEW consumable ${r.Name} (${fields.inGameName})`);
     }
 }
+flagAnomalous(consumables, "consumable");
 const printing = {};
 for (const [k, v] of Object.entries(read("printing.json"))) printing[RENAMES[k] || k] = v;
 
@@ -492,7 +514,8 @@ write("items.json", items);
 // something was written. Hand edits to the data need the same bump.
 if (changes.length) {
     const meta = read("META.json");
-    meta.GAME_DATA_VERSION = `hub ${String(bundle.fetchedAt || new Date().toISOString()).slice(0, 16)}`;
+    // export date plus import time: a second import of the same export must still change it
+    meta.GAME_DATA_VERSION = `hub ${String(bundle.fetchedAt || "").slice(0, 10)}, imported ${new Date().toISOString().slice(0, 16)}`;
     if (!DRY) fs.writeFileSync(path.join(DIR, "META.json"), JSON.stringify(meta, null, 4).replace(/\n/g, "\r\n"));
     note(`META.json: GAME_DATA_VERSION -> ${meta.GAME_DATA_VERSION}`);
 }
